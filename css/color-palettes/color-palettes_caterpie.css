@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+
+
+/*color-palettes cfg*/
+.palette_wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.palette_wrap .palette{
+    margin: 10px;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.palette-color1{
+    background: #ffffffff;
+}
+.palette-color2{
+    background: #a4d291ff;
+}
+.palette-color3{
+    background: #a2dff4ff;
+}
+.palette-color4{
+    background: #f7906fff;
+}
+.palette-color5{
+    background: #fce597ff;
+}
+.palette-color6{
+    background: #692943ff;
+}
+/*color-palettes cfg*/
+
+
+
+/*color-palettes animation*/
+

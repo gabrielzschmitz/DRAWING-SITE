@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+
+
+/*Fonts*/
+@font-face{
+    font-family: Fira Code;
+    src: url(../fonts/FiraCode-Bold.ttf);
+    font-weight: bold;
+}
+@font-face{
+    font-family: Fira Code;
+    src: url(../fonts/FiraCode-Light.ttf);
+    font-weight: lighter;
+}
+@font-face{
+    font-family: Fira Code;
+    src: url(../fonts/FiraCode-Regular.ttf);
+    font-weight: normal;
+}
+@font-face{
+    font-family: Fira Code;
+    src: url(../fonts/FiraCode-Retina.ttf);
+}
+@font-face{
+    font-family: Abril Text;
+    src: url(../fonts/Abril_Text_Regular.otf);
+    font-weight: normal;
+}
+@font-face{
+    font-family: Abril Text;
+    src: url(../fonts/Abril_Text_Bold.otf.otf);
+    font-weight: bold;
+}
+@font-face{
+    font-family: Abril Text;
+    src: url(../fonts/Abril_Text_ExtraBold.otf.otf);
+    font-weight: bolder;
+}
+@font-face{
+    font-family: Source Sans Pro;
+    src: url(../fonts/SourceSansPro-Regular.otf);
+    font-weight: normal;
+}
+@font-face{
+    font-family: Source Sans Pro;
+    src: url(../fonts/SourceSansPro-Light.otf);
+    font-weight: lighter;
+}
+@font-face{
+    font-family: Source Sans Pro;
+    src: url(../fonts/SourceSansPro-Bold.otf);
+    font-weight: bold;
+}
+/*Fonts*/
+
+
+
+/* unvisited link */
+a:link {
+    text-decoration: none;
+}
+/* visited link */
+a:visited {
+    text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+    text-decoration: none;
+}
+/* selected link */
+a:active {
+    text-decoration: none;
+}
+
+/*class="title" link*/
+#title a:link {
+    text-decoration: none;
+    color: #ffb86c;
+}
+#title a:visited{
+    text-decoration: none;
+    color: #ffb86c;
+} 
+/*title link*/
+
+
+/*Topbar*/
+topbar{
+    z-index: 3;
+    margin-top: -102px;
+    margin-left: -10px;
+    width: 100%;
+    background:#1d1e26;
+    height: 50px;
+    padding: 5px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,.15);
+    justify-content: space-between;
+}
+.instagram{
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.brand{
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: unset;
+}
+h1{
+    color: #f7f8f2;
+    text-align: left;
+    font-family: Fira Code, monospace;
+    font-size: small;
+    text-decoration: none;
+}
+/*Topbar*/
+
+
+
+/*Body*/
+body{
+    background: #2d2d39;
+    font-weight: 300;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+/*Body*/
+
+
+
+/*Main*/
+.main{
+    width: 840px;
+    margin: 0 auto;
+}
+.drawing{
+    z-index: 2;
+    border-radius: 10px;
+    padding: 25px;
+    display: block;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    height: auto;
+    max-width: 100%;
+    text-align: center;
+}
+.instructions{
+    margin-bottom: 2em;
+    margin: 0;
+    margin-bottom: 0px;
+    padding: 0;
+}
+h3{
+    color: #ffb86c;
+    font-family: Abril Text;
+    font-weight: 700;
+    text-align: left;
+    font-size: 48px;
+}
+h4{
+    color: #f2f2f2;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-weight: 300;
+    margin: 16px 0px 4px;
+}
+p{
+    margin: 0 0 .5em;
+    padding: 0;
+}
+pre{
+    background-color: #252525;
+    padding: 20px;
+    margin: 0 0 2em;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+code{
+    color: #ffb86c;
+    font-family: Source Sans Pro;
+    margin: 0;
+    padding: 0;
+}
+/*Main*/
+
+
+
+/*Footer*/
+footer{
+    background: #1d1e26;
+    padding: 50px;
+    margin: -45px;
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: 0px 5px 10px 10px rgba(0,0,0,.15);
+}
+.heart{
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    font-size: 30px;
+    color:#ff79c6;
+}
+.author{
+    color: #60ff7e;
+    font-family: Fira Code, monospace;
+    font-size: 15px;
+    text-decoration: none;
+}
+h2{
+    color: #f7f8f2;
+    text-align: center;
+    font-family: Fira Code, monospace;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    display: row;
+}
+/*Footer*/
