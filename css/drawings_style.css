@@ -173,20 +173,17 @@ p{
     margin: 0 0 .5em;
     padding: 0;
 }
-pre{
+code-container{
     background-color: #252525;
-    padding: 20px;
-    margin: 0 0 2em;
     border-radius: 5px;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+    display: flex;
+    justify-content: left;
+    padding: 35px;
 }
 code{
     color: #ffb86c;
     font-family: Source Sans Pro;
-    margin: 0;
-    padding: 0;
+    font-size: 16px;
 }
 /*Main*/
 
@@ -207,6 +204,7 @@ footer{
     top: 3px;
     font-size: 30px;
     color:#ff79c6;
+    font-family: Fira Code, monospace;
 }
 .author{
     color: #60ff7e;

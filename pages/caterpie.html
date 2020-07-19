@@ -1,77 +1,101 @@
 <!DOCTYPE html>
 <html amp>
-    <head>
-        <meta charset="UTF-8">
-        <title>Caterpie</title>
-        <link rel="stylesheet" type="text/css" href="../css/drawings_style.css"/>
-        <link rel="stylesheet" type="text/css" href="../css/color-palettes/color-palettes_caterpie.css"/>
-        <!--<meta http-equiv="refresh" content="1">-->
-        <meta name="author" content="gabrielzschmitz">
-        <meta name="description" content='"Caterpie" por gabrielzschmitz'>
-        <meta name="keywords" content="HTML, CSS, JavaScript, Desenho, gabrielzschmitz, Caterpie">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
 
-    <body>
-        <section class="body">
-            <topbar>
-                <div class="brand">
-                    <a href="../index.html">
-                     <h1>gabrielzschmitz</h1>
-                    </a>
-                </div>
+<head>
+    <meta charset="UTF-8">
+    <title>Caterpie</title>
+    <link rel="stylesheet" type="text/css" href="../css/drawings_style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/color-palettes/color-palettes_caterpie.css" />
+    <link rel="stylesheet" href="../toast-alert-allert/allert.css">
+    <script src="../toast-alert-allert/allert.js"></script>
+    <script src="../js/copy-js.js"></script>
+    <!--<meta http-equiv="refresh" content="1">-->
+    <meta name="author" content="gabrielzschmitz">
+    <meta name="description" content='"Caterpie" por gabrielzschmitz'>
+    <meta name="keywords" content="HTML, CSS, JavaScript, Desenho, gabrielzschmitz, Caterpie">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-                <div class="instagram">
-                    <a href="https://www.instagram.com/gabrielz.schmitz/" target="_blank">
-                        <img src="../img/icons/instagram-icon.svg" title="Instagram" alt="Instagram" width="20px">
-                    </a>
-                </div>
-            </topbar>
+<body>
+    <section class="body">
+        <topbar>
+            <div class="brand">
+                <a href="../index.html">
+                    <h1>gabrielzschmitz</h1>
+                </a>
+            </div>
+
+            <div class="instagram">
+                <a href="https://www.instagram.com/gabrielz.schmitz/" target="_blank">
+                    <img src="../img/icons/instagram-icon.svg" title="Instagram" alt="Instagram" width="20px">
+                </a>
+            </div>
+        </topbar>
 
 
 
-            <main class="main">
-                <img class="drawing" src="../img/drawings/caterpie_550.png" alt="Caterpie" title="Caterpie">
-                <div class="instructions">
-                    <h3 id="title">
-                        <a href="https://drive.google.com/open?id=1Rd1uyrLXaFRKfV9iWmHtyE4A1_QULfwm" title="Download Image" target="_blank">Caterpie</a>
-                    </h3>
-                    <h4 id="About the Art">
-                        About the Art
-                    </h4>
-                    <p>
-                        
-                    </p>
-                    <pre>
-                        <code>
+        <main class="main">
+            <img class="drawing" src="../img/drawings/caterpie_550.png" alt="Caterpie" title="Caterpie">
+            <div class="instructions">
+                <h3 id="title">
+                    <a href="https://drive.google.com/open?id=1Rd1uyrLXaFRKfV9iWmHtyE4A1_QULfwm" title="Download Image"
+                        target="_blank">Caterpie</a>
+                </h3>
+                <h4 id="Download the Art">
+                    Download the Art
+                </h4>
+                <p>
+
+                </p>
+                <code-container>
+                    <code>
                             https://drive.google.com/open?id=1Rd1uyrLXaFRKfV9iWmHtyE4A1_QULfwm
                         </code>
-                    </pre>
-                    <h4 id="Color Palette">
-                        Color Palette
-                    </h4>
-                    </div class="palette_wrap">
-                        <div class="palette-color1"></div>
-                        <div class="palette-color2"></div>
-                        <div class="palette-color3"></div>
-                        <div class="palette-color4"></div>
-                        <div class="palette-color5"></div>
-                        <div class="palette-color6"></div>
-                    </div>
-                </div>
-            </main>
+                </code-container>
+                <h4 id="Color Palette">
+                    Color Palette
+                </h4>
+            </div id="palettes">
+            <div id="palette-color1">#ffffff
+                <button onclick="myFunction('palette-color1')">Copy</button>
+            </div>
+
+            <div id="palette-color2">#a4d291
+                <button onclick="myFunction('palette-color2')">Copy</button>
+            </div>
+
+            <div id="palette-color3">#a2dff4
+                <button onclick="myFunction('palette-color3')">Copy</button>
+            </div>
+
+            <div id="palette-color4">#f7906f
+                <button onclick="myFunction('palette-color4')">Copy</button>
+            </div>
+
+            <div id="palette-color5">#fce597
+                <button onclick="myFunction('palette-color5')">Copy</button>
+            </div>
+
+            <div id="palette-color6">#692943
+                <button onclick="myFunction('palette-color6')">Copy</button>
+            </div>
+
+            </div>
+            </div>
+        </main>
 
 
 
-            <footer>
-                <h2>
-                    Made with
-                    <span class="heart">&#x2764</span>
-                    by
-                    <a class="author" href="https://www.instagram.com/gabrielz.schmitz/" target="_blank">gabrielzschmitz</a>
-                </h2>
-            </footer>
-            
-        </section>
-    </body>
+        <footer>
+            <h2>
+                Made with
+                <span class="heart">&#x2764</span>
+                by
+                <a class="author" href="https://www.instagram.com/gabrielz.schmitz/" target="_blank">gabrielzschmitz</a>
+            </h2>
+        </footer>
+
+    </section>
+</body>
+
 </html>
